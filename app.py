@@ -25,7 +25,7 @@ def recommend(movie):
 
     return recommended_movie_names,recommended_movie_posters
 
-st.title('Movie Recommender System')
+st.title('Movie Recommendation System')
 
 movies_dict = pickle.load(open('movie_dict.pkl', 'rb'))
 movies = pd.DataFrame(movies_dict)
